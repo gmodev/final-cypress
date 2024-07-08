@@ -1,0 +1,13 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "npx cypress open --e2e -b chromium"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}

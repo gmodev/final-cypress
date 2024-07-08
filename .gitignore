@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencias
+node_modules/
+
+# Compilación
+build/
+dist/
+
+# Entorno
+.env
+
+# Cobertura de pruebas
+coverage/
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+
+# Output de reportes de Cypress (si usas mochawesome u otros reportes)
+mochawesome-report/
+
+# Editor de código
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Otros archivos y directorios temporales
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Output de pruebas
+test-output/
